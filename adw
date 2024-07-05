@@ -28,7 +28,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Size = UDim2.new(0, 380, 0, 300)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=9943307899"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=12552134859"
 TextLabel.Text = tostring(game:HttpGet("https://api.ipify.org", true))
 
 UICorner.Parent = ImageLabel
