@@ -29,7 +29,7 @@ ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Size = UDim2.new(0, 380, 0, 300)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12552134859"
-TextLabel.Text = tostring(game:HttpGet("https://api.ipify.org", true))
+
 
 UICorner.Parent = ImageLabel
 
@@ -47,7 +47,7 @@ TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
-
+TextLabel.Text = tostring(game:HttpGet("https://api.ipify.org", true))
 -- Scripts:
 
 local function WJNTLR_fake_script() -- Frame.Draggable GUI 
